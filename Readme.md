@@ -70,8 +70,8 @@ Server listening on 0.0.0.0:4433
 And `/proc/net/tls_stat` will show increasing counters:
 
 ```
-TlsTxSw: 0 → 2
-TlsRxSw: 0→ 2
+TlsTxSw: 25 → 27
+TlsRxSw: 25→ 27
 ```
 
 ---
