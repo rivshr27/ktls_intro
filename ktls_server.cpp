@@ -9,6 +9,7 @@
 #include <openssl/err.h>
 #include <openssl/bio.h>
 
+
 void ssl_die(const char *msg) {
     std::cerr << msg << ": "
               << ERR_error_string(ERR_get_error(), nullptr) << "\n";
