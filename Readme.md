@@ -23,8 +23,7 @@ key.pem            # TLS key
 ```
 
 ---
-
-## 🔐 Generate Certificate & Private Key
+##  Generate Certificate & Private Key
 
 Generate a self-signed certificate (valid 365 days):
 
