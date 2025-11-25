@@ -167,5 +167,8 @@ head -c 20000 /dev/zero | openssl s_client -connect 127.0.0.1:4433 -quiet
 | **TlsDecryptRetry**     | Number of received TLS records the kernel needed to re-decrypt.                                 |
 | **TlsRxNoPadViolation** | Padding-check related counter (mainly for CBC-mode TLS; mostly unused with AES-GCM).            |
 
+## Useful Link:
+1.http://gerryyang.com/linux%20performance/2025/05/25/kernel-tls-in-action.html
+2.https://docs.kernel.org/networking/tls.html
 ---
 
